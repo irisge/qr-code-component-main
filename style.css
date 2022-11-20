@@ -3,64 +3,66 @@
 * {
     box-sizing: border-box;
 }
-    body {
-        margin: 0;
-        font-family: 'Outfit', sans-serif;
-        background-color: hsl(212, 45%, 89%);
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    
-    }   
-    main {
-        background-color: hsl(0, 0%, 100%);
-        padding: 1rem;
-        margin: 2rem;
-        }
 
-    img {
-        width: 100%;
-    }
-    
-    main, 
-    img {
-        border-radius: 1rem;
-    }
-    
-    h1 {
-        font-size: 1.4rem;
-        font-weight: 700;
-        color: hsl(218, 44%, 22%);
-        padding: 0 0.15rem;
-        margin: 1.5rem 0 0 0;
-    }
-    
-    p {
-        font-size: 1rem;
-        font-weight: 300;
-        color: hsl(220, 15%, 55%);
-        margin-bottom: 1.5rem;
-    }
-    
-    a {
-        text-decoration: none;
-    }
-    
-    footer {
-        display: block;
-        justify-self: end;
-    }
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    margin: 2rem;
+}
+
+img {
+    width: 100%;
+}
+
+main,
+img {
+    border-radius: 1rem;
+}
+
+h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    padding: 0 0.15rem;
+    margin: 1.5rem 0 0 0;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    display: block;
+    justify-self: end;
+}
 
 @media screen and (min-width:426px) {
 
-    body{
+    body {
         align-items: center;
     }
 
     main {
-        max-width: 350px;
+        max-width: 345px;
     }
 
     img {
@@ -69,8 +71,10 @@
 
     h1 {
         padding: 0 0.9rem;
+        margin: 1.3rem 0 0 0;
+
     }
-    
+
     p {
         padding: 0 1.4rem;
     }
